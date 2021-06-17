@@ -1,0 +1,112 @@
+<%= form_with(model: question) do |form| %>
+  <% if question.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(question.errors.count, "error") %> prohibited this question from being saved:</h2>
+
+      <ul>
+        <% question.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :question_id %>
+    <%= form.number_field :question_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :question_name %>
+    <%= form.text_area :question_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_area :description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :answer_a %>
+    <%= form.text_area :answer_a %>
+  </div>
+
+  <div class="field">
+    <%= form.label :answer_b %>
+    <%= form.text_area :answer_b %>
+  </div>
+
+  <div class="field">
+    <%= form.label :answer_c %>
+    <%= form.text_area :answer_c %>
+  </div>
+
+  <div class="field">
+    <%= form.label :answer_d %>
+    <%= form.text_area :answer_d %>
+  </div>
+
+  <div class="field">
+    <%= form.label :answer_e %>
+    <%= form.text_area :answer_e %>
+  </div>
+
+  <div class="field">
+    <%= form.label :answer_f %>
+    <%= form.text_area :answer_f %>
+  </div>
+
+  <div class="field">
+    <%= form.label :correct_answer_a %>
+    <%= form.check_box :correct_answer_a %>
+  </div>
+
+  <div class="field">
+    <%= form.label :correct_answer_b %>
+    <%= form.check_box :correct_answer_b %>
+  </div>
+
+  <div class="field">
+    <%= form.label :correct_answer_c %>
+    <%= form.check_box :correct_answer_c %>
+  </div>
+
+  <div class="field">
+    <%= form.label :correct_answer_d %>
+    <%= form.check_box :correct_answer_d %>
+  </div>
+
+  <div class="field">
+    <%= form.label :correct_answer_e %>
+    <%= form.check_box :correct_answer_e %>
+  </div>
+
+  <div class="field">
+    <%= form.label :correct_answer_f %>
+    <%= form.check_box :correct_answer_f %>
+  </div>
+
+  <div class="field">
+    <%= form.label :explanation %>
+    <%= form.text_area :explanation %>
+  </div>
+
+  <div class="field">
+    <%= form.label :tip %>
+    <%= form.text_area :tip %>
+  </div>
+
+  <div class="field">
+    <%= form.label :category %>
+    <%= form.text_area :category %>
+  </div>
+
+  <div class="field">
+    <%= form.label :difficulty %>
+    <%= form.text_area :difficulty %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

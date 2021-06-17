@@ -1,0 +1,43 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  question_id: 1
+  question_name: MyText
+  description: MyText
+  answer_a: MyText
+  answer_b: MyText
+  answer_c: MyText
+  answer_d: MyText
+  answer_e: MyText
+  answer_f: MyText
+  correct_answer_a: false
+  correct_answer_b: false
+  correct_answer_c: false
+  correct_answer_d: false
+  correct_answer_e: false
+  correct_answer_f: false
+  explanation: MyText
+  tip: MyText
+  category: MyText
+  difficulty: MyText
+
+two:
+  question_id: 1
+  question_name: MyText
+  description: MyText
+  answer_a: MyText
+  answer_b: MyText
+  answer_c: MyText
+  answer_d: MyText
+  answer_e: MyText
+  answer_f: MyText
+  correct_answer_a: false
+  correct_answer_b: false
+  correct_answer_c: false
+  correct_answer_d: false
+  correct_answer_e: false
+  correct_answer_f: false
+  explanation: MyText
+  tip: MyText
+  category: MyText
+  difficulty: MyText

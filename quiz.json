@@ -1,0 +1,322 @@
+[
+    {
+        "id": 1,
+        "question": "What command, followed by the directory name is used to access that specific directory?",
+        "description": null,
+        "answers": {
+            "answer_a": "cp",
+            "answer_b": "cd",
+            "answer_c": "access",
+            "answer_d": "acs",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_b",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Linux"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 2,
+        "question": "The following command can be used for turning off or restarting a Linux host.",
+        "description": null,
+        "answers": {
+            "answer_a": "reboot",
+            "answer_b": "shutdown",
+            "answer_c": "exit",
+            "answer_d": "taskkill",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_b",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Linux"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 3,
+        "question": "Which command is used to create a Kubernetes service?",
+        "description": null,
+        "answers": {
+            "answer_a": "kubectl set service",
+            "answer_b": "kubectl create service",
+            "answer_c": "kubectl deploy service",
+            "answer_d": "kubectl expose",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 4,
+        "question": "What is the Container Runtime?",
+        "description": null,
+        "answers": {
+            "answer_a": "Software that is responsible for running containers",
+            "answer_b": "An API object that manages a replicated application",
+            "answer_c": "Stored instance of a Container that holds a set of software needed to run an application",
+            "answer_d": "A command line tool for communicating with a Kubernetes API server",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 5,
+        "question": "Which command to use for complete details of a command on the shell?",
+        "description": null,
+        "answers": {
+            "answer_a": "help",
+            "answer_b": "man",
+            "answer_c": "?",
+            "answer_d": "info",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_b",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Linux"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 6,
+        "question": "Which filter can be applied on lines of text for arranging in ascending or descending order?",
+        "description": null,
+        "answers": {
+            "answer_a": "sort",
+            "answer_b": "arrange",
+            "answer_c": "collate",
+            "answer_d": "None of the above",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "BASH"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 7,
+        "question": "Which of the answers listed below refers to a command used for invoking a text editor in Unix-like operating systems?",
+        "description": null,
+        "answers": {
+            "answer_a": "edit",
+            "answer_b": "notepad",
+            "answer_c": "vi",
+            "answer_d": "bcdedit",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_c",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Linux"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 8,
+        "question": "HTML supports",
+        "description": null,
+        "answers": {
+            "answer_a": "ordered lists",
+            "answer_b": "unordered lists",
+            "answer_c": "both type of lists",
+            "answer_d": "does not support those types",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 9,
+        "question": "How to list PersistentVolumes sorted by capacity in Kubernetes?",
+        "description": null,
+        "answers": {
+            "answer_a": "kubectl get pv --sort-by=.spec.capacity.volume",
+            "answer_b": "kubectl get pv --sort-by=.spec.capacity.storage",
+            "answer_c": "kubectl get pv --sort-by=.spec.capacity.memory",
+            "answer_d": "kubectl get pv --sort-by=.spec.capacity.space",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 10,
+        "question": "Choose the odd one out.",
+        "description": null,
+        "answers": {
+            "answer_a": "csh",
+            "answer_b": "bsh",
+            "answer_c": "ksh",
+            "answer_d": "Kernel",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": "Kernel is the core part of the OS and is odd one the rest are popular shells.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "BASH"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }
+]
